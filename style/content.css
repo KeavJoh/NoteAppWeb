@@ -1,0 +1,141 @@
+
+
+
+/* CONTENT */
+
+.notation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 92%;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notation h3 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.n-new {
+    padding: 50px;
+}
+
+.new-btn {
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    font-size: 1.3em;
+    color: #f5f0e1;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    background-color: #1e3d59;
+    transition: all 225ms ease-in-out;
+}
+
+.new-btn:hover {
+    border: 3px solid #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+.notation h3 {
+    font-size: 2em;
+    color: #1e3d59;
+    text-decoration: underline;
+}
+
+.n-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.n-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    margin: 30px;
+    width: 350px;
+}
+
+.user-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-btn a {
+    padding: 10px;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    transition: all 225ms ease-in-out;
+}
+
+.user-btn a:hover {
+    cursor: pointer;
+    border: 2px solid #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+.final-trash {
+    padding: 10px;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    transition: all 225ms ease-in-out;
+}
+
+.final-trash:hover {
+    cursor: pointer;
+    background-color: #ff6e40;
+    border: 2px solid #1e3d59;
+    transition: all 225ms ease-in-out;
+}
+
+.n-index h4 {
+    font-size: 2em;
+    color: #1e3d59;
+}
+
+
+
+/* The alert message box */
+
+#alert {
+    display: none;
+}
+
+.alert {
+    font-size: 1.3em;
+    padding: 20px;
+    background-color: #ff6e40;
+    color: white;
+    margin-bottom: 15px;
+    width: 50%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}

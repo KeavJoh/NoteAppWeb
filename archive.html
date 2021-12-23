@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="script/general.js"></script>
+    <script src="script/add.js"></script>
+    <script src="script/archiv.js"></script>
+    <script src="script/trash.js"></script>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/@media.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+    <title>Shrib Archiv</title>
+</head>
+
+
+
+<body onload="renderArchiv(), counter()">
+
+
+    <div class="header">
+        <div class="h-logo">
+            <img src="img/logo.png" alt="">
+            <h1>Wilkommen bei Shrib</h1>
+        </div>
+        <div class="counter" id="counter">
+        </div>
+    </div>
+
+    <!-- NAVIGATION MOBILE -->
+    <div class="navigation-mobile">
+        <div class="menu-mobile">
+            <a href="index.html" class="icon-mobile" title="Notitzen"><img src="img/add.png" alt=""></a>
+            <a href="archive.html" class="icon-mobile active" title="Archiv"><img src="img/archiv.png" alt=""></a>
+            <a href="trash.html" class="icon-mobile" title="Papierkorb"><img src="img/delete.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- NAVIGATION -->
+        <div class="navigation">
+            <div class="menu">
+                <a href="index.html" class="icon icon-enter"><img src="img/add.png" alt=""></a>
+                <a href="archive.html" class="icon icon-enter active"><img src="img/archiv.png" alt=""></a>
+                <a href="trash.html" class="icon icon-enter"><img src="img/delete.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="notation">
+            <div class="mobile">
+                <h3>Archiv</h3>
+                <div class="n-div" id="content-add">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+</html>

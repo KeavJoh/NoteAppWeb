@@ -1,0 +1,163 @@
+/* GENERAL */
+
+* {
+    font-family: 'Rokkitt', serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f0e1;
+}
+
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+textarea {
+    resize: none;
+    background-color: #f5f0e1;
+    border: unset;
+    font-size: 1.2em;
+    height: 200px;
+}
+
+input {
+    font-size: 1.5em;
+    background-color: #f5f0e1;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #ff6e40;
+}
+
+
+
+/* HEADER */
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #1e3d59;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-logo {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.h-logo img {
+    height: 80px !important;
+    width: auto;
+}
+
+.h-logo h1 {
+    margin-left: 16px;
+    font-size: 2em;
+    color: #f5f0e1;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 1.5em;
+}
+
+.counter a {
+    text-decoration: none;
+    color: #f5f0e1;
+    padding: 10px;
+}
+
+
+
+/* CONTENT DIV */
+
+.content {
+    display: flex;
+}
+
+
+
+/* NAVIGATION MOBILE */
+
+.navigation-mobile {
+    display: flex;
+    display: none;
+    justify-content: center;
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: center;
+    background-color: #1e3d59;
+    border-radius: 15px;
+}
+
+.icon-mobile {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 50px;
+    border: 2px solid #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+.menu-mobile :hover {
+    background-color: #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 8%;
+    height: 100vh;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 7%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #1e3d59;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+.menu :hover {
+    background-color: #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+
+.active {
+    background-color: #ff6e40;
+}
+
+
+

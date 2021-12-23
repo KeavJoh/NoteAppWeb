@@ -1,0 +1,183 @@
+/* RESPONSIVE */
+
+@media (max-width: 1920px) {
+    .icon {
+        padding: 10px;
+    }
+
+    .n-index {
+        margin: 20px;
+    }
+}
+
+
+
+@media (max-width: 1400px) {
+    .menu {
+        width: 10%;
+    }
+
+    .notation {
+        width: 90%;
+    }
+
+    .alert {
+        width: 70%;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .h-logo h1 {
+        font-size: 1.4em;
+    }
+
+    .counter {
+        font-size: 1.3em;
+        flex-direction: column;
+    }
+
+    .counter a {
+        padding: 3px;
+    }
+
+    input {
+        font-size: 1.3em;
+    }
+
+    .menu {
+        width: 10%;
+    }
+
+    .notation {
+        width: 85%;
+    }
+
+    .alert {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .none {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    .notation {
+        align-items: center;
+    }
+
+    .icon img {
+        width: 35px;
+        height: auto;
+    }
+
+    .menu {
+        width: 15%;
+    }
+
+    .notation {
+        width: 100%;
+    }
+
+    .notation h3 {
+        margin-top: 40px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    img {
+        height: 40px;
+    }
+
+    textarea {
+        border: none;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: block;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .icon-mobile img {
+        width: 30px;
+        height: auto;
+    }
+
+    .counter {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    input {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .none {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .n-new {
+        padding: 30px;
+    }
+
+    .alert {
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .mobile {
+        width: 100%;
+    }
+
+    .n-div {
+        width: 90%;
+    }
+
+    .menu-mobile {
+        max-width: 90%;
+    }
+
+    .h-logo {
+        margin: unset;
+    }
+
+    .h-logo img {
+        height: 50px !important;
+    }
+
+    .h-logo h1 {
+        margin-left: 5px;
+    }
+
+    .user-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
